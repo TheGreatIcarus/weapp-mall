@@ -1,0 +1,1 @@
+"use strict";Page({handleGetUserInfo:function(e){var a=e.detail.userInfo;wx.setStorageSync("userinfo",a),wx.navigateBack({delta:1})}});

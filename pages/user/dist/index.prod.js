@@ -1,0 +1,1 @@
+"use strict";Page({data:{userinfo:{}},onShow:function(){var t=wx.getStorageSync("userinfo");this.setData({userinfo:t})}});
